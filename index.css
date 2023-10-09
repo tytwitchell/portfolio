@@ -513,6 +513,8 @@ body:not(.user-is-tabbing) a:focus {
     animation-duration: 0.7s;
   }
 
+  
+
 @keyframes rotate {
     0% {
       transform: rotate(0);
