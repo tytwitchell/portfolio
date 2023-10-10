@@ -1,6 +1,4 @@
-/* -----------------------------------------
-  Have focus outline only for keyboard users 
- ---------------------------------------- */
+/* Have focus outline only for keyboard users */
 
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
@@ -41,3 +39,12 @@ window.addEventListener("scroll", () => {
     alterStyles(isBackToTopRendered);
   }
 });
+
+const setHeaderBackgroundHeight = () => {
+  const header = document.querySelector(".top");
+  const windowHeight = window.innerHeight;
+  header.style.height = `${windowHeight}px`;
+}
+
+setHeaderBackgroundHeight();
+window.addEventListener("resize", setHeaderBackgroundHeight);
