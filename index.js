@@ -28,7 +28,7 @@ let alterStyles = (isBackToTopRendered) => {
   backToTopButton.style.transform = isBackToTopRendered
     ? "scale(1)"
     : "scale(0)";
-};
+}
 
 window.addEventListener("scroll", () => {
   if (window.scrollY > 700) {
@@ -38,5 +38,5 @@ window.addEventListener("scroll", () => {
     isBackToTopRendered = false;
     alterStyles(isBackToTopRendered);
   }
-});
+})
 
