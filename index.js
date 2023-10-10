@@ -40,11 +40,3 @@ window.addEventListener("scroll", () => {
   }
 });
 
-const setHeaderBackgroundHeight = () => {
-  const header = document.querySelector(".top");
-  const windowHeight = window.innerHeight;
-  header.style.height = `${windowHeight}px`;
-}
-
-setHeaderBackgroundHeight();
-window.addEventListener("resize", setHeaderBackgroundHeight);
