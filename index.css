@@ -31,8 +31,8 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #000;
-    --pink: #ff3258;
+    --black: #151514;
+    --pink: #5eaaaa;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -393,8 +393,8 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Header ----- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0, 1)), 
-        url('./images/pic1.jpg');
+    background: linear-gradient(rgba(84, 99, 96, .4), rgba(21, 21, 20, 1)), 
+        url('./images/forestbg.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -566,17 +566,17 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
-/* --------------------------------------- */
+
 /* ----- Contact ----- */
-/* --------------------------------------- */
+
 
 .contact__info {
     max-width: var(--container-medium-width);
 }
 
-/* --------------------------------------- */
+
 /* ----- Footer ----- */
-/* --------------------------------------- */
+
 
 .footer {
     text-align: center;
