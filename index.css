@@ -400,12 +400,14 @@ body:not(.user-is-tabbing) a:focus {
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
+    
 }
 
 .header__text {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    
 }
 
 .header__text p {
@@ -419,6 +421,14 @@ body:not(.user-is-tabbing) a:focus {
     .header {
         text-align: center;
         background-size: 500px 1000px;
+        
+    }
+
+    .header__text {
+        left: 0;
+        right: 0;
+        max-width: 402px;
+        margin: 0 auto
     }
 
     .header__text p {
