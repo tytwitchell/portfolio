@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Portfolio"
+  },
+  "keywords": [
+    "Portfolio"
+  ],
+  "author": "Tyler Twitchell",
+  "license": "ISC"
+}
