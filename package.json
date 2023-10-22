@@ -4,8 +4,8 @@
   "description": "portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "npm test",
-    "build": "echo 'No build step required.'"
+    "test": "npm test"
+  
   },
   "repository": {
     "type": "git",
