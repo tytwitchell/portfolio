@@ -956,7 +956,7 @@ input, select, textarea {
 .icon-tech:hover,
 .icon-tech:focus {
 	transform: rotate(360deg);
-	cursor:grab;
+	cursor: grab;
 }
 
 
@@ -969,6 +969,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		
 	}
 
 		ul.icons li {
