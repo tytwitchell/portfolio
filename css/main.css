@@ -15,7 +15,7 @@
     --line-height-small: 1.2;
 
     --black: #151514;
-    --mint: #76baa0;
+    --mint: #21b0d4;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -131,6 +131,8 @@ input, select, textarea {
 
 	body {
 		background: #1b1f22;
+		
+
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -1207,15 +1209,19 @@ input, select, textarea {
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto,
- 256px 256px;
+			background-color: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5));
+			background-image: url("../images/clouds.jpg");
+			background-size: cover;
 			background-position: center,
  center;
 			background-repeat: no-repeat,
  repeat;
+			
 			z-index: 2;
+			mix-blend-mode:color-burn;
 		}
+
+
 
 		#bg:after {
 			-moz-transform: scale(1.125);
