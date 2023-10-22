@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npm test",
-    "build": "npm run build"
+    "build": "echo 'No build step required.'"
   },
   "repository": {
     "type": "git",
