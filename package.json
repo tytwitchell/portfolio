@@ -1,19 +1,14 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "portfolio",
-  "main": "index.js",
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "npm test"
-  
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "Portfolio"
-  },
-  "keywords": [
-    "Portfolio"
-  ],
-  "author": "Tyler Twitchell",
-  "license": "ISC"
+  "devDependencies": {
+    "vite": "^4.4.5"
+  }
 }
