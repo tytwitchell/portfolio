@@ -4,7 +4,8 @@
   "description": "portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+    "build": "npm run build"
   },
   "repository": {
     "type": "git",
