@@ -15,7 +15,9 @@
 		<link rel="manifest" href="/site.webmanifest">
 		<link rel="stylesheet" href="./css/main.css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-		<noscript><link rel="stylesheet" href="./css/noscript.css" /></noscript>
+		<noscript>
+		
+		<link rel="stylesheet" href="./css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
@@ -53,17 +55,17 @@
 								<span class="image main">
 									<!-- <img src="images/img-code.jpg" alt="code image" class="img-additional"/> -->
 								</span>
-								<div class="icon-tech-container">
-									<i class="icon-tech fa-brands fa-react" style="color: #fcfcfc;"></i>
-									<p>React.js</p>
-									<i class="icon-tech fa-brands fa-python" style="color: #fcfcfc;"></i>
-									<p>Python</p>
-									<i class="icon-tech fa-brands fa-js" style="color: #fcfcfc;"></i>
-									<p>JavaScript</p>
-									<i class="icon-tech fa-brands fa-css3-alt" style="color: #fcfcfc;"></i>
-									<p>CSS</p>
-									<i class="icon-tech fa-brands fa-html5" style="color: #fcfcfc;"></i>
-									<p>HTML</p>
+								<div class="icon-tech-container" id="icon-tech-container">
+									<i class="icon-tech hidden fa-brands fa-react" style="color: #fcfcfc;"></i>
+									<p class="hidden-txt icon-txt">React.js</p>
+									<i class="icon-tech hidden fa-brands fa-python" style="color: #fcfcfc;"></i>
+									<p class="hidden-txt icon-txt">Python</p>
+									<i class="icon-tech hidden fa-brands fa-js" style="color: #fcfcfc;"></i>
+									<p class="hidden-txt icon-txt">JavaScript</p>
+									<i class="icon-tech hidden fa-brands fa-css3-alt" style="color: #fcfcfc;"></i>
+									<p class="hidden-txt icon-txt">CSS</p>
+									<i class="icon-tech hidden fa-brands fa-html5" style="color: #fcfcfc;"></i>
+									<p class="hidden-txt icon-txt">HTML</p>
 								</div>
 								<p>I have invested time in learning these technologies because they are fundamental to modern web development and have broad applications. React, React Router 6, Python, JavaScript, CSS, and HTML have equipped me with a versatile skill set to tackle a wide array of challenges and create effective web applications. 
 									<br><br>
@@ -437,6 +439,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="./js/breakpoints.min.js"></script>
 			<script src="./js/util.js"></script>
 			<script src="./js/main.js"></script>
-
+			<script defer src="./js/additional.js"></script>
 	</body>
 </html>

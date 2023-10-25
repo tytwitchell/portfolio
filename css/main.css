@@ -950,19 +950,73 @@ input, select, textarea {
 	grid-row: 1;
 	font-size: 3.5em;
 	justify-self: center;
-	transition: transform 1.5s;
 }
-
-.icon-tech:hover,
-.icon-tech:focus {
-	transform: rotate(360deg);
-	cursor: grab;
-}
-
 
 .icon-tech-container > p {
 	justify-self: center;
 	font-weight: bold
+}
+
+.hidden {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(-200%);
+	transition: all 2s
+}
+
+.hidden-txt {
+	opacity: 0;
+	filter: blur(5px);
+	transition: all 2s
+}
+
+.show {
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0)
+
+}
+
+.show-txt {
+	opacity: 1;
+	filter: blur(0);
+
+}
+
+.icon-tech:nth-child(3) {
+	transition-delay: 200ms;
+}
+.icon-tech:nth-child(5) {
+	transition-delay: 400ms;
+}
+.icon-tech:nth-child(7) {
+	transition-delay: 650ms;
+}
+.icon-tech:nth-child(9) {
+	transition-delay: 800ms;
+}
+
+.icon-txt:nth-child(2) {
+	transition-delay: 2000ms;
+}
+.icon-txt:nth-child(4) {
+	transition-delay: 2000ms;
+}
+.icon-txt:nth-child(6) {
+	transition-delay: 2000ms;
+}
+.icon-txt:nth-child(8) {
+	transition-delay: 2000ms;
+}
+.icon-txt:nth-child(10) {
+	transition-delay: 2000ms;
+}
+
+
+@media (prefers-reduced-motion) {
+	.hidden {
+		transition: none
+	}
 }
 
 	ul.icons {
