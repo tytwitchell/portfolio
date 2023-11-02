@@ -1480,7 +1480,9 @@ input, select, textarea {
 
 			.inner-span {
 				font-weight: bold;
-				color: var(--mint)
+				color: var(--mint);
+				border-bottom: none;
+				font-family: inherit;
 			}
 		
 
