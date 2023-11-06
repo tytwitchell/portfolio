@@ -944,17 +944,24 @@ input, select, textarea {
 	display: grid;
 	grid-template: auto auto / repeat(4, 1fr);
 	gap: 5px;
+	
 }
 
 .icon-tech {
 	grid-row: 1;
 	font-size: 3.5em;
 	justify-self: center;
+
+	min-width: 2.5rem;
+	padding: 0 .5rem ;
+	
 }
 
 .icon-tech-container > p {
 	justify-self: center;
-	font-weight: bold
+	font-weight: bold;
+	margin-inline: 0;
+	
 }
 
 .hidden {
@@ -1351,6 +1358,12 @@ input, select, textarea {
 
 			#wrapper {
 				padding: 2rem 1rem;
+			}
+
+			.icon-tech-container {
+				display: grid;
+				grid-template: auto auto / repeat(4, auto);
+				gap: 5px;
 			}
 
 		}
