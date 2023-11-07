@@ -1360,12 +1360,6 @@ input, select, textarea {
 				padding: 2rem 1rem;
 			}
 
-			.icon-tech-container {
-				display: grid;
-				grid-template: auto auto / repeat(4, auto);
-				gap: 5px;
-			}
-
 		}
 
 		@media screen and (max-width: 480px) {
