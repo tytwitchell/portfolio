@@ -944,6 +944,7 @@ input, select, textarea {
 	display: grid;
 	grid-template: auto auto / repeat(4, 1fr);
 	gap: 5px;
+	
 }
 
 .icon-tech {
