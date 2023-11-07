@@ -942,26 +942,20 @@ input, select, textarea {
 
 .icon-tech-container {
 	display: grid;
-	grid-template: auto auto / repeat(4, 1fr);
+	grid-template-rows: auto auto ;
 	gap: 5px;
-	
 }
 
 .icon-tech {
 	grid-row: 1;
 	font-size: 3.5em;
 	justify-self: center;
-
-	min-width: 2.5rem;
-	padding: 0 .5rem ;
-	
 }
 
 .icon-tech-container > p {
 	justify-self: center;
 	font-weight: bold;
 	margin-inline: 0;
-	
 }
 
 .hidden {
@@ -1359,7 +1353,6 @@ input, select, textarea {
 			#wrapper {
 				padding: 2rem 1rem;
 			}
-
 		}
 
 		@media screen and (max-width: 480px) {
