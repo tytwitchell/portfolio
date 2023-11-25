@@ -1040,18 +1040,27 @@ ul.actions.fit.stacked {
 /* Icons */
 
 .icon-tech-container {
-  display: grid;
-  grid-template: auto auto / repeat(4, 1fr);
+  display: flex;
+  justify-content: space-around;
+  /* grid-template: auto auto / repeat(4, 1fr); */
   gap: 5px;
+}
+
+.icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px
 }
 
 .icon-tech {
   grid-row: 1;
   font-size: 3.5em;
   justify-self: center;
+  
 }
 
-.icon-tech-container > p {
+.icon-wrapper > p {
   justify-self: center;
   font-weight: bold;
   margin-inline: 0;
@@ -1081,18 +1090,21 @@ ul.actions.fit.stacked {
   filter: blur(0);
 }
 
-.icon-tech:nth-child(3) {
+.icon-wrapper:nth-child(2) .icon-tech {
   transition-delay: 200ms;
 }
-.icon-tech:nth-child(5) {
+
+.icon-wrapper:nth-child(3) .icon-tech {
   transition-delay: 400ms;
 }
-.icon-tech:nth-child(7) {
+
+.icon-wrapper:nth-child(4) .icon-tech {
   transition-delay: 600ms;
 }
-.icon-tech:nth-child(9) {
-  transition-delay: 800ms;
-}
+
+/* .icon-wrapper:nth-child(5) .icon-tech {
+  transition-delay: 500ms;
+} */
 
 .icon-txt:nth-child(2) {
   transition-delay: 2000ms;
