@@ -2009,6 +2009,10 @@ body:not(.user-is-tabbing) a:focus {
   margin-bottom: 5rem;
 }
 
+.pending {
+   color: var(--mint);
+}
+
 .work__box {
   display: flex;
   align-items: center;
